@@ -1,6 +1,7 @@
 function Person (options) {
   var options = options || {};
 
+//
  if (options.cool === undefined) {
     this.cool = false;
   } else {
